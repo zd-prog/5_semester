@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Lab 3</string>
+    <string name="absolute">Absolute:</string>
+    <string name="name">Name:</string>
+    <string name="path">Path:</string>
+    <string name="read_write">Read/Write:</string>
+    <string name="external">External: </string>
+    <string name="getcachedir">GETCACHEDIR</string>
+    <string name="getfilesdir">GETFILESDIR</string>
+    <string name="getexternalfilesdir">GETEXTERNALFILESDIR</string>
+    <string name="getexternalcachedir">GETEXTERNALCACHEDIR</string>
+    <string name="getexternalstoragedirectory">GETEXTERNALSTORAGEDIRECTORY</string>
+    <string name="getexternalstoragepublicdirectory">GETEXTERNALSTORAGEPUBLICDIRECTORY</string>
+</resources>

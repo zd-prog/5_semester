@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lab 6</string>
+    <string name="name">Название</string>
+    <string name="category">Категория</string>
+    <string name="time">Время готовки</string>
+    <string name="ingredients">Ингредиенты</string>
+    <string name="recipe">Рецепт</string>
+    <string name="save">Сохранить</string>
+
+    <string-array name="screen_array">
+        <item>Добавить</item>
+    </string-array>
+
+    <string name="drawer_open">Открыть navigation drawer</string>
+    <string name="drawer_close">Закрыть navigation drawer</string>
+
+    <string name="drawerAdd">Добавить</string>
+</resources>

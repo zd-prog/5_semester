@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab 6</string>
+    <string name="name">Название</string>
+    <string name="category">Категория</string>
+    <string name="time">Время готовки</string>
+    <string name="ingredients">Ингредиенты</string>
+    <string name="recipe">Рецепт</string>
+    <string name="save">Сохранить</string>
+</resources>

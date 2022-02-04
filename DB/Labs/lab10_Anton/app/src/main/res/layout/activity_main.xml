@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="20dp"
+        tools:layout_editor_absoluteX="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Таблица GROUPS"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextIDGROUP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="IDGROUP "
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/editTextFACULTY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="FACULTY"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextCOURSE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="COURSE"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="NAME"
+                android:inputType="textPersonName" />
+
+            <Spinner
+                android:id="@+id/spinnerHEAD"
+                android:layout_width="230dp"
+                android:layout_height="46dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonAddGROUPS"
+                android:layout_width="220dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="12dp"
+                android:layout_weight="1"
+                android:text="ADD GROUP" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Таблица STUDENTS"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextFKGROUP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="FK IDGROUP"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextSTUDENTID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="IDSTUDENT"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextSTUDENT_NAME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="NAME"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/buttonaddSTUDENT"
+                android:layout_width="220dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="ADD STUDENT" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextIDGROUPActions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Введите IDGROUP"
+                    android:inputType="textPersonName" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonSearchIDGROUP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/brown"
+                    app:srcCompat="@android:drawable/ic_menu_search" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonDeleteGROUP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/brown"
+                    app:srcCompat="@android:drawable/ic_menu_delete" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonEditGROUP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/brown"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editTextIDSTUDENTFind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Введите IDSTUDENT"
+                    android:inputType="textPersonName" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonSearchStudent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/brown"
+                    app:srcCompat="@android:drawable/ic_menu_search" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonDeleteStudent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/brown"
+                    app:srcCompat="@android:drawable/ic_menu_delete" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonEditStudent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/brown"
+                    app:srcCompat="@android:drawable/ic_menu_edit" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewSearchResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="120dp"
+                android:layout_weight="1"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

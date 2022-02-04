@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab 10</string>
+    <string name="group">Группа:</string>
+    <string name="output">Вывод</string>
+    <string name="addGroup">Добавить группу</string>
+    <string name="addStudent">Добавить студента</string>
+</resources>

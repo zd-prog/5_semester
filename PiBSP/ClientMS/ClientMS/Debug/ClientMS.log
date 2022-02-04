@@ -1,0 +1,3 @@
+﻿  ClientMS.cpp
+D:\Study\3rd\PiBSP\ClientMS\ClientMS\ClientMS.cpp(32,6): warning C4101: 'nData': unreferenced local variable
+  ClientMS.vcxproj -> D:\Study\3rd\PiBSP\ClientMS\Debug\ClientMS.exe

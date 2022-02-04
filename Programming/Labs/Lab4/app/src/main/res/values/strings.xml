@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab 3</string>
+    <string name="next">Далее</string>
+    <string name="name">Название</string>
+    <string name="author">Автор</string>
+    <string name="Name">Название: </string>
+    <string name="Author">Автор: </string>
+    <string name="date">Дата прочтения: </string>
+    <string name="readed">Прочитано</string>
+    <string name="data">Год издания: </string>
+    <string name="genre">Жанр: </string>
+    <string name="accept">Подтвердить</string>
+</resources>

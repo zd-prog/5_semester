@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lab 8</string>
+    <string name="add">Добавить</string>
+    <string name="change">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="xpath">xpath</string>
+    <string name="xslt">xslt</string>
+</resources>

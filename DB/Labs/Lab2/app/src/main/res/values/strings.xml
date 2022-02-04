@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calories</string>
+    <string name="appName">Калькулятор нормы потребления калорий</string>
+    <string name="gender">Пол</string>
+    <string name="genderM">М</string>
+    <string name="genderF">Ж</string>
+    <string name="weight">Вес*</string>
+    <string name="kilos">в кг</string>
+    <string name="height">Рост*</string>
+    <string name="centimetres">в см</string>
+    <string name="age">Возраст*</string>
+    <string name="ages">в годах</string>
+    <string name="lifestyle">Образ жизни*</string>
+    <string name="calculate">Рассчитать количество калорий</string>
+    <string name="needCalories">Необходимое количество калорий:</string>
+</resources>

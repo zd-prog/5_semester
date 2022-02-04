@@ -1,0 +1,3 @@
+﻿  ClientCT.cpp
+C:\Users\Asus\Desktop\LAB6\ClientCT\ClientCT\ClientCT.cpp(72,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  ClientCT.vcxproj -> C:\Users\Asus\Desktop\LAB6\ClientCT\Debug\ClientCT.exe

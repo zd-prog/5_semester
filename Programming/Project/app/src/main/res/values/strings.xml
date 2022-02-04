@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FITBoard</string>
+    <string name="categories">Категории</string>
+    <string name="nav_header_title">FIT Board</string>
+    <string name="nav_header_subtitle">Приложение для новостей о факультете</string>
+    <string name="menu_news">Новости</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

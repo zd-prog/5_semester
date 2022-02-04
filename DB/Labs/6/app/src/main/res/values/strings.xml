@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab 6</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="phone">Телефон</string>
+    <string name="date">Дата рождения</string>
+    <string name="Private">Приватный</string>
+    <string name="Public">Общедоступный</string>
+</resources>

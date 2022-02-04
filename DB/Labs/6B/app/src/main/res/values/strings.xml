@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab 6bday</string>
+    <string name="bday">Дата рождения</string>
+    <string name="search">Поиск</string>
+</resources>

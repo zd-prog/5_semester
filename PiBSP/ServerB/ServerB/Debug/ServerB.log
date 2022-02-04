@@ -1,0 +1,4 @@
+﻿  ServerB.cpp
+D:\Study\3rd\PiBSP\ServerB\ServerB\ServerB.cpp(49,11): warning C4101: 'server': unreferenced local variable
+D:\Study\3rd\PiBSP\ServerB\ServerB\ServerB.cpp(50,11): warning C4101: 'client': unreferenced local variable
+  ServerB.vcxproj -> D:\Study\3rd\PiBSP\ServerB\Debug\ServerB.exe

@@ -1,0 +1,3 @@
+﻿  ClientT.cpp
+D:\Study\3rd\PiBSP\ClientT\ClientT\ClientT.cpp(8,9): warning C4101: 'sS': unreferenced local variable
+  ClientT.vcxproj -> D:\Study\3rd\PiBSP\ClientT\Debug\ClientT.exe

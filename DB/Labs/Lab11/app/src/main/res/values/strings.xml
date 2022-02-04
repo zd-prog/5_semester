@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab 11</string>
+    <string name="count">Количество</string>
+    <string name="accept">Подтвердить</string>
+</resources>

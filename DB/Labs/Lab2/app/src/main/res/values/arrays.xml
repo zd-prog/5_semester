@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lifestyles">"Сидячий образ жизни", "Занятия 1-3 " + "раз в неделю", "Занятия
+        3-5 раз в неделю", "Занятия 6-7 раз в неделю", "Спортивный образ жизни"
+    </string-array>
+</resources>

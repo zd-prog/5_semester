@@ -1,0 +1,3 @@
+﻿  ServerMS.cpp
+D:\Study\3rd\PiBSP\ServerMS\ServerMS\ServerMS.cpp(30,9): warning C4101: 'hMS': unreferenced local variable
+  ServerMS.vcxproj -> D:\Study\3rd\PiBSP\ServerMS\Debug\ServerMS.exe
